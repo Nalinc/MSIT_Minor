@@ -11,4 +11,4 @@ set xlabel "Time"
 set ylabel "Variation in the difference of the two systems"
 set key below
 
-plot "arnold_datum.dat" using 1:($4-$2) title "x2-x1" with lines, "arnold_datum.dat" using 1:($5-$3) title "y2-y1" with lines
+plot "./arnold_datum.dat" using 1:($4-$2) title "x2-x1" with lines, "./arnold_datum.dat" using 1:($5-$3) title "y2-y1" with lines
